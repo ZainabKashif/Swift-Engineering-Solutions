@@ -1,0 +1,101 @@
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.5em!important;
+    font-weight: bolder;
+}
+.about{
+    font-size: 25px;
+    font-weight: bold;
+    color:midnightblue;
+    margin: 25px;
+}
+.intro{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+#intro{
+    font-weight: bolder;
+}
+.heading{
+    text-align: center;
+    color:teal;
+    font-weight: bold;
+}
+#int{
+    text-align: center;
+    font-weight: bold;
+}
+#missstat{
+    text-align: center;
+}
+.head{
+    text-align: center;
+    color:teal;
+    font-weight: bold;
+}
+.headin{
+    text-align: center;
+    color:teal;
+    font-weight: bold;
+    font-size: 38px;
+}
+.main{
+    background-color:ghostwhite;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 3rem;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#engineers{
+    font-size: 18px;
+    font-style: italic;
+}
+.light{
+    width: 100%; 
+   border-top: 2px solid grey;
+    
+}
+@media(max-width:400px){
+    #mail{
+        font-size: 16px;
+    }
+}
+@media(max-width:340px){
+  #mail{
+      font-size: 14px;
+  }
+}
+@media(max-width:295px){
+  #mail{
+      font-size: 12px;
+  }
+}
+@media(max-width:256px){
+  #mail{
+      font-size: 10px;
+  }
+}
+@media(max-width:300px){
+    .about{
+        font-size: 17px;
+    }
+}
+@media(max-width:300px){
+    .heading{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,131 @@
+.html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+/* /////////////navbar///////////// */
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.5em!important;
+    font-weight: bolder;
+}
+
+/* ////////////background image////////// */
+.bgimg{
+    background-image: url('images/n.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:770px;
+} 
+/* //////////////bg img headings//////////// */
+.headerset{
+    padding:180px;
+    box-sizing: border-box;
+} 
+
+.headerset h3{
+    font-weight: bolder;
+    color:white;
+}
+.headerset h1{
+    font-size: 50px;
+    font-family:fantasy; 
+    font-family: 'Caveat', cursive;
+    font-style:oblique;
+    font-weight: bolder;
+    box-shadow:2%;
+    color:white;
+}  
+/* ////////////multiimages//////////////// */
+.elec{
+    width: 100%;
+    height:80%;
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+}
+.home_text{
+margin: 30px;
+font-style: oblique;
+font-family: 'Secular One', sans-serif;
+font-weight: bolder;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 3rem;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media(max-width:739px){
+    .headerset h1{
+        font-size: 45px;
+    }  
+}
+@media(max-width:580px){
+        .headerset h1{
+            font-size: 37px;
+        }
+        .headerset h3{
+            font-size: 20px;
+        }
+}
+@media(max-width:410px){
+    .home_text{
+        font-size: 25px;
+    }
+}
+@media(max-width:330px){
+    .headerset h1{
+        font-size: 33px;
+    }
+    .headerset h3{
+        font-size: 17px;
+    }
+    .home_text{
+        font-size: 22px;
+    }
+}
+@media(max-width:267px){
+    .headerset h1{
+        font-size: 29px;
+    }
+    .headerset h3{
+        font-size: 15px;
+    }
+    .home_text{
+        font-size: 20px;
+    }
+}
+@media(max-width:400px){
+    #mail{
+        font-size: 16px;
+    }
+}
+@media(max-width:340px){
+  #mail{
+      font-size: 14px;
+  }
+}
+@media(max-width:295px){
+  #mail{
+      font-size: 12px;
+  }
+}
+@media(max-width:256px){
+  #mail{
+      font-size: 10px;
+  }
+}
